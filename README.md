@@ -3,7 +3,7 @@
 
 ---
 
-Depedencies:
+Dependencies:
 - river (with Xwayland support)
 - waybar
 - mako
