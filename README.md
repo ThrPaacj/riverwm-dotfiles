@@ -1,6 +1,8 @@
 # riverwm-dotfiles
  My personal configuration for river wm
 
+---
+
 Depedencies:
 - river (with Xwayland support)
 - waybar
@@ -16,3 +18,7 @@ Depedencies:
 - wofi (or others)
 - brightnessctl (only laptop)
 - pamixer 
+
+---
+
+<img src="riverwmgit.png">

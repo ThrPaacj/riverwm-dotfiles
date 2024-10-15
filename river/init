@@ -34,8 +34,8 @@ riverctl map normal Super B spawn thorium-browser
 riverctl map normal Super R spawn "rofi -show drun"
 riverctl map normal Super E spawn thunar
 riverctl map normal Super+Control L spawn "/home/thrp/.config/river/lock_screen.sh"
-riverctl map normal Super P spawn 'grim ~/Pictures/Screenshots/$(date +'%Y-%m-%d_%H-%M-%S').png && notify-send -t 2000 'Screenshot taken' | wl-copy'
-riverctl map normal Super+Shift P spawn 'grim -g "$(slurp)" ~/Pictures/Screenshots/$(date +'%Y-%m-%d_%H-%M-%S').png && notify-send -t 2000 'Screenshot taken'| wl-copy'
+riverctl map normal Super P spawn 'grim ~/Pictures/Screenshots/$(date +"%Y-%m-%d_%H-%M-%S").png && notify-send -t 2000 "Screenshot taken" | wl-copy'
+riverctl map normal Super+Shift P spawn 'grim -g "$(slurp)" ~/Pictures/Screenshots/$(date +"%Y-%m-%d_%H-%M-%S").png && notify-send -t 2000 "Screenshot taken"| wl-copy'
 
 # --- KEYBINDINGS ---
 riverctl map normal Super+Shift Q exit
