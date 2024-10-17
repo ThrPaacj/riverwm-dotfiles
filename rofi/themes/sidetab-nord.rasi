@@ -1,0 +1,80 @@
+* {
+    background: #232831;
+    foreground: #D8DEE9;
+    border-color: @background;
+    bg-selected: #3B4252;
+    grey: #4C566A;
+    spacing: 2;
+    width: 35em;
+    margin: 0;
+    padding: 0;
+    font: "MesloLGS Nerd Font 16";
+}
+
+#window {
+    background-color: @background;
+    border: 0;
+    padding: 0;
+    location: center;
+    anchor: center;
+    height: 50%;
+    width: 40%;
+    margin: 0;
+}
+
+#mainbox {
+    background-color: @background;
+    spacing: 10px;
+    margin: 10px 0 0 0;
+    width: 100%;
+}
+
+#inputbar {
+    children: [prompt,entry];
+    background-color: @background;
+}
+
+#listview {
+    background-color: @background;
+    fixed-height: false;
+    dynamic: true;
+    margin: 5px 10px 0 10px;
+}
+
+#element {
+    padding: 5px;
+    background-color: @background;
+    text-color: @foreground;
+}
+
+element selected {
+    background-color: @bg-selected;
+    text-color: #88C0D0;
+}
+
+element-text {
+    background-color: inherit;
+    text-color: inherit;
+}
+
+element-icon {
+    background-color: inherit;
+    margin: 0 4px 0 0;
+    size: 25px;
+}
+
+#entry {
+   background-color: @background;
+   text-color: @foreground;
+   placeholder: "Search";
+   placeholder-color: @grey;
+   font: "MesloLGS Nerd Font 20";
+}
+
+#prompt {
+   background-color: @background;
+   padding: 0 4px;
+   margin: 0 5px 0 0;
+   text-color: #81A1C1;
+   font: "MesloLGS Nerd Font 20";
+}

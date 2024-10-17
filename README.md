@@ -15,7 +15,7 @@ Dependencies:
 - [grim](https://github.com/emersion/grim)
 - [slurp](https://github.com/emersion/slurp)
 - [wl-clipboard](https://github.com/bugaevc/wl-clipboard)
-- wofi (or others)
+- rofi_wayland (or others)
 - [brightnessctl](https://github.com/Hummer12007/brightnessctl) (only for laptops)
 - [pamixer](https://github.com/cdemoulins/pamixer) 
 
