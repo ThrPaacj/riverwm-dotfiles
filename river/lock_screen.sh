@@ -13,8 +13,6 @@ swaylock \
 	--line-color 00000000 \
 	--inside-color 2e3440aa \
 	--separator-color 00000000 \
-	--grace 2 \
-	--fade-in 0.1 \
 	--datestr "%a, %b %d" \
 	--timestr "%H:%M" \
 	--text-color eceff4
